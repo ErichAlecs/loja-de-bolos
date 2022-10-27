@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.corpo {
+    width: 1000px;
+    margin: 0 auto;
+}
+.cabecalho{
+    text-align: center;
+    background-image: url(img/fundo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 20px rgb(255, 77, 211);
+    border-radius: 90px;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 3s all;
+}
+.titulo{
+    font-family: 'Cookie', cursive;
+    font-size: 60px;
+    line-height: 40px;
+}
+.titulo2{
+    font-size: 40px;
+}
+.menu{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #5C5C5C;
+}
+.item-menu{
+    text-decoration: none;
+    padding-inline: 50px;
+    color: white;
+}
