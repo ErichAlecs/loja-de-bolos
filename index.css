@@ -48,3 +48,10 @@
     padding-inline: 50px;
     color: white;
 }
+.baner{
+    height: 500px;
+}
+.baner img{
+    width: 100%;
+    height: 500px;
+}
